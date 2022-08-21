@@ -1,0 +1,3 @@
+export const PRODUCTS_MOCK = [{image:"https://m.media-amazon.com/images/I/51OhbtwZ81L._AC_SL1000_.jpg",title:"Water Bottle",description:"Healthy Sports Water Bottle 2500 ml, Motivational Water Bottle for with Removable Straw used for travel,gym",price:165},
+{image:"https://m.media-amazon.com/images/I/411gmQpYy-L._AC_.jpg" ,title:"Yoga Mat",description:"Gymbit Yoga Mat with Carrying Strap and Bag, 10 mm - Purple",price:285},
+{image:"https://m.media-amazon.com/images/I/61RXMQtXS+L._AC_SX679_.jpg",title:"HUAWEI Band 6",description:" 1.47 FullView Display, 2-Week Battery Life, Fast Charging, Heart Rate Monitoring,96 Workout Modes- Graphite Black",price:1.499}]

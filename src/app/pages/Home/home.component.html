@@ -1,0 +1,10 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<app-nav-bar></app-nav-bar>
+<body>
+  <h1>Our Products</h1>
+  <div class="container">
+    <app-card *ngFor="let card of cards" [card]="card"></app-card>
+  </div>
+</body>

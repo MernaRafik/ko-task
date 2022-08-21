@@ -1,0 +1,37 @@
+.nav-bar-padding{
+    padding: 0 5rem;
+}
+
+.d-flex{
+    display:flex;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.mat-cell{
+    font-size:smaller;
+}
+
+.content-space-between{
+    justify-content:space-between;
+}
+
+.thumbnail{
+    width:3rem;
+    height:3rem;
+}
+
+.small-thumbnail{
+    width:2rem;
+    height:2rem;
+    margin-top: 7px;
+    color: blueviolet;
+}
+
+h2{
+    margin-right:15px;
+    margin-top: 10px;
+    font-weight:300;
+}

@@ -1,1 +1,102 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files
+@media (max-width: 768px) {
+    .mat-header-row {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+    .mat-header-cell {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        padding: 1rem 0.5rem;
+        justify-content: space-around;
+    }
+
+    .mat-cell{
+        font-size:smaller;
+    }
+
+    .container{
+        width:90%;
+    }
+
+    .btn-primary{
+        line-height: 0; 
+        font-size: 0;
+        margin-left: 20px;
+    }
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
+
+.btn-primary{
+    background-color: #004A9B;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius:10px;
+}
+
+.d-flex{
+    display:flex;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.text-primary{
+    color:#004A9B;
+    font-weight:bold;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.thumbnail{
+    width: 3rem;
+}
+
+.mat-cell{
+    padding: 1rem 0;
+}
+
+.container{
+    padding: 1rem 5rem;
+    background-color:#F7F9FA;
+}
+
+.mt-5{
+    margin-top:3rem;
+}
+
+.round-container{
+    border-radius: 25px;
+}
+
+.round-border{
+    border-radius: 100%;
+}
+
+.content-space-between{
+    justify-content:space-between;
+}
+
+.nav-bar-padding{
+    padding: 0 5rem;
+}
+
+a{
+    text-decoration: none;
+} */

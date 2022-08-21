@@ -1,0 +1,18 @@
+<mat-card class="example-card">
+    <img
+      mat-card-image
+      src="{{card.image}}"
+      class="card-image container"
+    />
+      <mat-card-content class="container p20">
+        <h2>{{card.title}}</h2>
+        <p>{{card.description}}</p>
+        <p id="price"><span style="font-size: 0.75rem;">EGP</span> {{card.price}}</p>
+      </mat-card-content>
+
+        <mat-card-actions class="inline-class ">
+          <button mat-button (click)="decreaseQty()" [disabled]="qty==0">-</button>
+          <p>{{qty}}</p>
+          <button mat-button (click)="increaseQty()">+</button>
+        </mat-card-actions>
+</mat-card>
